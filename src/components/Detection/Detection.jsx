@@ -17,14 +17,14 @@ import Webcam from "react-webcam";
 const Detection = () => {
 
   return (
-   <div className="App">
-      <button className="toggle-button bg-green-500 pointer mt-4 " >
-        <p className="p-2">Start Detection</p>
+    <div className="App">
+      <button className="toggle-button bg-green-500 pointer mt-4 p-2" >
+        Start Detection
       </button>
-    <header className="App-header">
-      <Webcam  className="p-5 "/>
-    </header>
-   </div>
+      <header className="App-header flex justify-center mt-2 mb-1">
+        <Webcam />
+      </header>
+    </div>
   )
 }
 
