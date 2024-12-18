@@ -12,11 +12,17 @@ import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
 import Webcam from "react-webcam";
 
+
+
 const Detection = () => {
+
   return (
    <div className="App">
+      <button className="toggle-button bg-green-500 pointer mt-4 " >
+        <p className="p-2">Start Detection</p>
+      </button>
     <header className="App-header">
-      <Webcam  className=""/>
+      <Webcam  className="p-5 "/>
     </header>
    </div>
   )
