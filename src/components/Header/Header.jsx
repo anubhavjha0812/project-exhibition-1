@@ -117,22 +117,26 @@ export default function Header() {
                             </li>
 
                             {/* Login/Signup Buttons in Mobile Menu */}
-                            <li>
-                                <Link
-                                    to="#"
-                                    className="block text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 focus:outline-none duration-200"
-                                >
-                                    Log in
-                                </Link>
-                            </li>
-                            <li>
-                                <button
-                                    onClick={handleGetStartedClick}
-                                    className="block text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 focus:outline-none duration-200"
-                                >
-                                    Get started
-                                </button>
-                            </li>
+                            {!isMenuOpen || (
+                                <>
+                                    <li>
+                                        <Link
+                                            to="#"
+                                            className="block text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 focus:outline-none duration-200"
+                                        >
+                                            Log in
+                                        </Link>
+                                    </li>
+                                    <li className=" flex justify-center">
+                                        <button
+                                            onClick={handleGetStartedClick}
+                                            className="block text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 focus:outline-none duration-200"
+                                        >
+                                            Get started
+                                        </button>
+                                    </li>
+                                </>
+                            )}
                         </ul>
                     </div>
 
