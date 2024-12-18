@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                                src="https://img.freepik.com/free-vector/okey-hand-user-people-icon_530521-1366.jpg?t=st=1734551586~exp=1734555186~hmac=7e8e05b6910c073862849b37cf998c3278880fcf12a1794e5bab63e314340d95&w=740"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
@@ -73,7 +73,7 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2024
                         <a href="https://linktr.ee/anubhavjha0812" className="hover:underline">
-                            anubhavjha0812
+                            -anubhavjha0812
                         </a>
                         . All Rights Reserved.
                     </span>
