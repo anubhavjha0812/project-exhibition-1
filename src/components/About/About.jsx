@@ -1,29 +1,35 @@
-import React from 'react'
+import React from 'react';
 
 export default function About() {
   return (
       <div className="py-16 bg-white">
           <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-              <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+              <div className="space-y-6 md:space-y-0 md:flex md:gap-8 lg:items-center lg:gap-16">
+                  {/* Image Section */}
                   <div className="md:5/12 lg:w-5/12">
                       <img
-                          src="https://img.freepik.com/free-vector/okey-hand-user-people-icon_530521-1366.jpg?t=st=1734551586~exp=1734555186~hmac=7e8e05b6910c073862849b37cf998c3278880fcf12a1794e5bab63e314340d95&w=740"
-                          alt="image"
+                          src="https://img.freepik.com/free-vector/okey-hand-user-people-icon_530521-1366.jpg"
+                          alt="Sign Language Symbol"
+                          className="rounded-md shadow-lg"
                       />
                   </div>
-                  <div className="md:7/12 lg:w-6/12">
-                      <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                          React development is carried out by passionate developers
+
+                  {/* Content Section */}
+                  <div className="md:7/12 lg:w-7/12 text-center md:text-left">
+                      <h2 className="text-3xl text-gray-900 font-bold md:text-4xl leading-snug">
+                          Empowering Communication <br /> Through Sign Language Detection
                       </h2>
-                      <p className="mt-6 text-gray-600">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                          accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                          aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                      <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+                          Our project bridges the gap in communication by translating sign language into meaningful text using cutting-edge technology. It's a step towards creating a more inclusive world.
                       </p>
-                      <p className="mt-4 text-gray-600">
-                          Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                          Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                      <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+                          With real-time recognition powered by AI, we’re enabling effortless and accurate interactions for everyone.
                       </p>
+                      <div className="mt-8">
+                          <button className="px-6 py-3 text-white bg-orange-600 hover:bg-orange-700 rounded-lg shadow-md transition duration-300">
+                              Learn More
+                          </button>
+                      </div>
                   </div>
               </div>
           </div>

@@ -10,7 +10,7 @@ export default function Footer() {
                         <Link to="/" className="flex items-center">
                             <img
                                 src="https://img.freepik.com/free-vector/okey-hand-user-people-icon_530521-1366.jpg?t=st=1734551586~exp=1734555186~hmac=7e8e05b6910c073862849b37cf998c3278880fcf12a1794e5bab63e314340d95&w=740"
-                                className="mr-3 h-16"
+                                className="mr-3 h-28"
                                 alt="Logo"
                             />
                         </Link>
